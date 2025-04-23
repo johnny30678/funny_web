@@ -1,0 +1,9 @@
+name = "funny-web"
+compatibility_date = "2023-12-01"
+main = ".vercel/output/static/_worker.js"
+
+[site]
+bucket = ".vercel/output/static"
+
+[build]
+command = "npm run pages:build" 
