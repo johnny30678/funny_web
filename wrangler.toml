@@ -4,7 +4,7 @@ compatibility_flags = ["nodejs_compat"]
 main = ".vercel/output/static/_worker.js"
 
 [site]
-bucket = ".vercel/output/static"
+pages_build_output_dir = ".vercel/output/static"
 
 [build]
 command = "npm run pages:build" 
