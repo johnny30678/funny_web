@@ -6,7 +6,8 @@
     "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start -p 3001",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -22,6 +23,7 @@
     "postcss": "^8.4.14",
     "autoprefixer": "^10.4.14",
     "eslint": "^8",
-    "eslint-config-next": "13.4.2"
+    "eslint-config-next": "13.4.2",
+    "@cloudflare/next-on-pages": "^1.0.0"
   }
 }
